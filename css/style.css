@@ -1,0 +1,102 @@
+/*FUENTES*/
+@font-face {
+	font-family: "LM-Bold";
+	src: url("../assets/fonts/LEMONMILK-Bold.otf");
+}
+@font-face {
+	font-family: "LM-Medium";
+	src: url("../assets/fonts/LEMONMILK-Medium.otf");
+}
+@font-face {
+	font-family: "LM-Light";
+	src: url("../assets/fonts/LEMONMILK-Light.otf");
+}
+.Fbold {
+	font-family: "LM-Bold";
+}
+.Fmedium {
+	font-family: "LM-Medium";
+}
+.Flight {
+	font-family: "LM-Light";
+}
+/* FONDOS */
+.bg-grad {
+	background-image: linear-gradient(to right, lightgrey, grey)!important;
+}
+.bg-grey {
+	background-color: #65727c;
+}
+.bg-beige {
+	background-color: #a68562;
+}
+.background-image {
+	background-image: url(../assets/imgs/bluebackground.jpg);
+}
+.contactBackIg {
+	background-image: url(../assets/imgs/instagramback.png);
+}
+.contactBackWpp {
+	background-image: url(../assets/imgs/whatsappback.jpg);
+}
+.contactBackFb {
+	background-image: url(../assets/imgs/facebookback.jpg);
+}
+/*	ICONO */
+.icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav-link {
+	transform: font-family 2s, font-size 2s;
+}
+.nav-link:hover {
+	font-family: "LM-Medium";
+	font-size: 20px ;
+}
+.h1 {
+	font-size: 30px;
+}
+.h2 {
+	font-size: 20px;
+}
+.h6 {
+	font-size: 15px;
+}
+.list-group-item-link {
+	font-family: ;
+}
+.navbar-expand-lg .navbar-nav {
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+.navbar .navbar-expand-lg .navbar-light .col-sm-10 {
+	padding: 0px;
+}
+.vendor {
+	padding: 20px;
+}
+.brand {
+	padding: 20px;
+}
+.wppxs {
+	height: 50px;
+}
+.carousel {
+	padding-left: 0px;
+}
+.height-bar {
+	height: 150px;
+}
+@media (min-width: 1300px) {
+	.navbar-expand-lg .navbar-collapse {
+		justify-content: end;
+	}
+	.
+}
+@media (max-width: 1000px) {
+	.brand {
+		flex-direction: column-reverse;
+	}
+}
