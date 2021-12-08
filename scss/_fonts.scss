@@ -1,0 +1,30 @@
+@font-face {
+	font-family: "LM-Bold";
+	src: url("../assets/fonts/LEMONMILK-Bold.otf");
+}
+@font-face {
+	font-family: "LM-Medium";
+	src: url("../assets/fonts/LEMONMILK-Medium.otf");
+}
+@font-face {
+	font-family: "LM-Light";
+	src: url("../assets/fonts/LEMONMILK-Light.otf");
+}
+.Fbold {
+	font-family: "LM-Bold";
+}
+.Fmedium {
+	font-family: "LM-Medium";
+}
+.Flight {
+	font-family: "LM-Light";
+}
+.h1 {
+	font-size: 30px;
+}
+.h2 {
+	font-size: 20px;
+}
+.h6 {
+	font-size: 15px;
+}

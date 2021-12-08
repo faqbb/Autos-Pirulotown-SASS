@@ -1,0 +1,5 @@
+@media screen and (min-width: 1300px) {
+	.navbar-expand-lg .navbar-collapse {
+		justify-content: end;
+	}
+}
