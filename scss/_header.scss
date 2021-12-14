@@ -1,3 +1,6 @@
+
+@import "fonts";
+
 .icon {
 	display: flex;
 	justify-content: center;
@@ -5,8 +8,12 @@
 	}
 .nav-link {
 	transform: font-family 2s, font-size 2s;
-	&:hover {
-	font-family: "LM-Medium";
-	font-size: 20px ;
+	&:hover{
+		font-family: "LM-Medium";
+		font-size: 20px ;
 	}
+}
+.nav-link--activo {
+	font-family: "LM-Bold";
+	color: black;
 }

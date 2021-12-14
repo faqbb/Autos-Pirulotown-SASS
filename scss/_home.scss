@@ -1,0 +1,9 @@
+@import "colors";
+
+@mixin resaltado($color, $size){
+	color:$color;
+	font-size: $size;
+}
+.resaltado {
+	@include resaltado(map-get($colors, black), 25px)
+}

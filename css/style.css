@@ -1,3 +1,33 @@
+.h1 {
+  font-size: 30px; }
+
+.h2 {
+  font-size: 20px; }
+
+.h6 {
+  font-size: 15px; }
+
+@font-face {
+  font-family: "LM-Bold";
+  src: url("../assets/fonts/LEMONMILK-Bold.otf"); }
+
+.FBold {
+  font-family: "LM-Bold"; }
+
+@font-face {
+  font-family: "LM-Medium";
+  src: url("../assets/fonts/LEMONMILK-Medium.otf"); }
+
+.FMedium {
+  font-family: "LM-Medium"; }
+
+@font-face {
+  font-family: "LM-Light";
+  src: url("../assets/fonts/LEMONMILK-Light.otf"); }
+
+.FLight {
+  font-family: "LM-Light"; }
+
 .icon {
   display: flex;
   justify-content: center;
@@ -9,26 +39,9 @@
     font-family: "LM-Medium";
     font-size: 20px; }
 
-@font-face {
+.nav-link--activo {
   font-family: "LM-Bold";
-  src: url("../assets/fonts/LEMONMILK-Bold.otf"); }
-
-@font-face {
-  font-family: "LM-Medium";
-  src: url("../assets/fonts/LEMONMILK-Medium.otf"); }
-
-@font-face {
-  font-family: "LM-Light";
-  src: url("../assets/fonts/LEMONMILK-Light.otf"); }
-
-.Fbold {
-  font-family: "LM-Bold"; }
-
-.Fmedium {
-  font-family: "LM-Medium"; }
-
-.Flight {
-  font-family: "LM-Light"; }
+  color: black; }
 
 .h1 {
   font-size: 30px; }
@@ -39,26 +52,53 @@
 .h6 {
   font-size: 15px; }
 
+@font-face {
+  font-family: "LM-Bold";
+  src: url("../assets/fonts/LEMONMILK-Bold.otf"); }
+
+.FBold {
+  font-family: "LM-Bold"; }
+
+@font-face {
+  font-family: "LM-Medium";
+  src: url("../assets/fonts/LEMONMILK-Medium.otf"); }
+
+.FMedium {
+  font-family: "LM-Medium"; }
+
+@font-face {
+  font-family: "LM-Light";
+  src: url("../assets/fonts/LEMONMILK-Light.otf"); }
+
+.FLight {
+  font-family: "LM-Light"; }
+
 .bg-grad {
   background-image: linear-gradient(to right, lightgrey, grey) !important; }
-
-.bg-grey {
-  background-color: #65727c; }
-
-.bg-beige {
-  background-color: #a68562; }
 
 .background-image {
   background-image: url(../assets/imgs/bluebackground.jpg); }
 
-.contactBackIg {
-  background-image: url(../assets/imgs/instagramback.png); }
+.bg-grey {
+  background-color: grey; }
 
-.contactBackWpp {
-  background-image: url(../assets/imgs/whatsappback.jpg); }
+.bg-beige {
+  background-color: beige; }
 
-.contactBackFb {
+.bg-red {
+  background-color: red; }
+
+.bg-black {
+  background-color: black; }
+
+.contactBackfacebook {
   background-image: url(../assets/imgs/facebookback.jpg); }
+
+.contactBackinstagram {
+  background-image: url(../assets/imgs/instagramback.jpg); }
+
+.contactBackwhatsapp {
+  background-image: url(../assets/imgs/whatsappback.jpg); }
 
 @media screen and (min-width: 1300px) {
   .navbar-expand-lg .navbar-collapse {
@@ -67,3 +107,10 @@
 @media screen and (max-width: 1000px) {
   .brand {
     flex-direction: column-reverse; } }
+
+.resaltado {
+  color: black;
+  font-size: 25px; }
+
+.height-bar {
+  height: 150px; }

@@ -1,21 +1,18 @@
+@import "colors";
+
 .bg-grad {
 	background-image: linear-gradient(to right, lightgrey, grey)!important;
-}
-.bg-grey {
-	background-color: #65727c;
-}
-.bg-beige {
-	background-color: #a68562;
 }
 .background-image {
 	background-image: url(../assets/imgs/bluebackground.jpg);
 }
-.contactBackIg {
-	background-image: url(../assets/imgs/instagramback.png);
+@each $bg, $color in $colors {
+	.bg-#{$bg}{
+		background-color:#{$bg};
+	}
 }
-.contactBackWpp {
-	background-image: url(../assets/imgs/whatsappback.jpg);
-}
-.contactBackFb {
-	background-image: url(../assets/imgs/facebookback.jpg);
+@each $bgimg in facebook, instagram, whatsapp{
+	.contactBack#{$bgimg}{
+		background-image: url(../assets/imgs/#{$bgimg}back.jpg);
+	}
 }
