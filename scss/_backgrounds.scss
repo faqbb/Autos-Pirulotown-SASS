@@ -8,7 +8,7 @@
 }
 @each $bg, $color in $colors {
 	.bg-#{$bg}{
-		background-color:#{$bg};
+		background-color:#{$color};
 	}
 }
 @each $bgimg in facebook, instagram, whatsapp{

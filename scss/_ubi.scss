@@ -1,0 +1,31 @@
+.title {
+	display:flex;
+	flex-direction: column;
+}
+.UbiTitle {
+ margin: 0px;
+ padding-top: 10px
+}
+.UbiSubtitle {
+	color: #212529;
+	margin: 0px;
+	padding-top: 10px
+}
+.navListUbi {
+	display:flex;
+	list-style: none;
+	padding: 20px;
+	justify-content: space-around;
+}
+.navListUbiLink {
+	text-decoration: none;
+	color: white;
+	transform: font-family 2s, font-size 2s;
+	&:hover{
+		font-family: "LM-Medium";
+		font-size: 20px ;
+	}
+}
+.navListUbiLink--active {
+	color: black;
+}

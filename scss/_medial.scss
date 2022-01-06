@@ -1,5 +1,8 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) and (min-width: 720px) {
 	.brand {
 		flex-direction: column-reverse;
+	}
+	.carousel-inner {
+		justify-content: space-around;
 	}
 }

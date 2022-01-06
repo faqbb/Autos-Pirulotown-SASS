@@ -1,0 +1,26 @@
+.gridBodyUbi {
+	display: grid; 
+  	grid-template-columns: 0.8fr 0.9fr 0.8fr; 
+  	grid-template-rows: 105px auto 1.3fr 150px; 
+  	gap: 0px 0px; 
+  	grid-template-areas: 
+    "Header Header Header"
+    "Section Section Section"
+    "Section Section Section"
+    "footer footer footer"; 
+	}
+Header { grid-area: Header; }
+Section { grid-area: Section; }
+footer { grid-area: footer; }
+
+.gridHeadUbi {
+  display: grid; 
+  grid-template-columns: 0.4fr 0.8fr 1.3fr; 
+  grid-template-rows: 105px; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "icon Title nav"; 
+}
+.icon { grid-area: icon; }
+.Title { grid-area: Title; }
+.nav { grid-area: nav; }

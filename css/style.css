@@ -80,10 +80,13 @@
   background-image: url(../assets/imgs/bluebackground.jpg); }
 
 .bg-grey {
-  background-color: grey; }
+  background-color: #65727c; }
 
 .bg-beige {
-  background-color: beige; }
+  background-color: #a68562; }
+
+.bg-greyish {
+  background-color: #343a40; }
 
 .bg-red {
   background-color: red; }
@@ -104,9 +107,43 @@
   .navbar-expand-lg .navbar-collapse {
     justify-content: end; } }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) and (min-width: 720px) {
   .brand {
-    flex-direction: column-reverse; } }
+    flex-direction: column-reverse; }
+  .carousel-inner {
+    justify-content: space-around; } }
+
+.gridBodyUbi {
+  display: grid;
+  grid-template-columns: 0.8fr 0.9fr 0.8fr;
+  grid-template-rows: 105px auto 1.3fr 150px;
+  gap: 0px 0px;
+  grid-template-areas: "Header Header Header" "Section Section Section" "Section Section Section" "footer footer footer"; }
+
+Header {
+  grid-area: Header; }
+
+Section {
+  grid-area: Section; }
+
+footer {
+  grid-area: footer; }
+
+.gridHeadUbi {
+  display: grid;
+  grid-template-columns: 0.4fr 0.8fr 1.3fr;
+  grid-template-rows: 105px;
+  gap: 0px 0px;
+  grid-template-areas: "icon Title nav"; }
+
+.icon {
+  grid-area: icon; }
+
+.Title {
+  grid-area: Title; }
+
+.nav {
+  grid-area: nav; }
 
 .resaltado {
   color: black;
@@ -114,3 +151,33 @@
 
 .height-bar {
   height: 150px; }
+
+.title {
+  display: flex;
+  flex-direction: column; }
+
+.UbiTitle {
+  margin: 0px;
+  padding-top: 10px; }
+
+.UbiSubtitle {
+  color: #212529;
+  margin: 0px;
+  padding-top: 10px; }
+
+.navListUbi {
+  display: flex;
+  list-style: none;
+  padding: 20px;
+  justify-content: space-around; }
+
+.navListUbiLink {
+  text-decoration: none;
+  color: white;
+  transform: font-family 2s, font-size 2s; }
+  .navListUbiLink:hover {
+    font-family: "LM-Medium";
+    font-size: 20px; }
+
+.navListUbiLink--active {
+  color: black; }
