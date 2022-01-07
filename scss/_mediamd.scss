@@ -1,0 +1,38 @@
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+	.gridBodyUbi {
+	display: grid; 
+  	grid-template-columns: 1fr 2fr 2fr; 
+  	grid-template-rows: 150px auto 1.3fr 150px; 
+  	gap: 0px 0px; 
+  	grid-template-areas: 
+    "Header Header Header"
+    "Section Section Section"
+    "Section Section Section"
+    "footer footer footer"; 
+	}
+	.gridContentUbi {
+  		display: grid; 
+  		grid-template-columns: 100%; 
+  		grid-template-rows: 450px  0.5fr 0.5fr 0.5fr; 
+  		gap: 0px 0px; 
+  		grid-template-areas: 
+    		"map"
+    		"contact"
+    		"imgs" 
+    		"imgs" 
+    		"imgs"; 
+	}
+	.navListUbi {
+	text-align: end;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 0px;
+    margin-top: 10px;
+	}
+	.imgsUbi {
+		flex-direction: column;
+	}
+	.title {
+		text-align:center
+	}
+}

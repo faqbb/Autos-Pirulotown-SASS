@@ -2,6 +2,9 @@
 	display:flex;
 	flex-direction: column;
 }
+.gridHeadUbi {
+	border-bottom: solid white 2px;
+}
 .UbiTitle {
  margin: 0px;
  padding-top: 10px
@@ -28,4 +31,45 @@
 }
 .navListUbiLink--active {
 	color: black;
+}
+.imgsUbi{
+	display: flex;
+	height:350px;
+}
+.contactUbi {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.addressUbi{
+	color: white;
+	font-size: 35px;
+	padding: 20px;
+}
+.addressUbi--subtitle{
+	font-size: 30px
+}
+.addressUbi--link{
+	text-decoration: none;
+	color:black;
+	transform: font-size 2s;
+	&:hover{ 
+		font-size: 40px;
+	}
+}
+.footerUbi {
+	border-top: solid white 2px;
+}
+.footerList {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+}
+.footerListLinks{
+	text-decoration: none;
+	color: white;
+}
+.copyrightUbi {
+	text-align: center;
+	color: white;
 }

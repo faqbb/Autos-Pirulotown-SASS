@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+	.gridBodyUbi {
+	display: grid; 
+  	grid-template-columns: 100%; 
+  	grid-template-rows: auto 2fr 2fr 0.5fr; 
+  	grid-template-areas: 
+    "Header"
+    "Section "
+    "Section "
+    "footer " ; 
+	}
+	.gridHeadUbi {
+  		display: grid; 
+  		grid-template-columns: 100%; 
+  		grid-template-rows: 1fr 0.5fr 1fr; 
+  		gap: 0px 0px; 
+  		grid-template-areas: 
+    "icon" 
+    "Title"
+     "nav"; 
+	}
+	.gridContentUbi {
+  		display: grid; 
+  		grid-template-columns: 100%; 
+  		grid-template-rows: 450px  0.5fr 0.5fr 0.4fr; 
+  		gap: 0px 0px; 
+  		grid-template-areas: 
+    		"map"
+    		"contact"
+    		"imgs" 
+    		"imgs"
+    		"imgs" ; 
+	}
+	.title {
+		text-align:center
+	}
+	.navListUbi {
+		flex-direction: column;
+	}
+	.imgsUbi {
+		flex-direction: column;
+	}
+	.footerList {
+		flex-direction: column;
+	}
+}

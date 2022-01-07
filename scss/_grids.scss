@@ -24,3 +24,16 @@ footer { grid-area: footer; }
 .icon { grid-area: icon; }
 .Title { grid-area: Title; }
 .nav { grid-area: nav; }
+
+.gridContentUbi {
+  display: grid; 
+  grid-template-columns: 0.7fr 0.7fr 1.1fr; 
+  grid-template-rows: 500px 0.8fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "map map contact"
+    "imgs imgs imgs"; 
+}
+.mapUbi { grid-area: map; }
+.contactUbi { grid-area: contact; }
+.imgsUbi { grid-area: imgs; }

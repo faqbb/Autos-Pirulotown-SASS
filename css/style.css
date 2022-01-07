@@ -103,16 +103,6 @@
 .contactBackwhatsapp {
   background-image: url(../assets/imgs/whatsappback.jpg); }
 
-@media screen and (min-width: 1300px) {
-  .navbar-expand-lg .navbar-collapse {
-    justify-content: end; } }
-
-@media screen and (max-width: 1000px) and (min-width: 720px) {
-  .brand {
-    flex-direction: column-reverse; }
-  .carousel-inner {
-    justify-content: space-around; } }
-
 .gridBodyUbi {
   display: grid;
   grid-template-columns: 0.8fr 0.9fr 0.8fr;
@@ -145,6 +135,86 @@ footer {
 .nav {
   grid-area: nav; }
 
+.gridContentUbi {
+  display: grid;
+  grid-template-columns: 0.7fr 0.7fr 1.1fr;
+  grid-template-rows: 500px 0.8fr;
+  gap: 0px 0px;
+  grid-template-areas: "map map contact" "imgs imgs imgs"; }
+
+.mapUbi {
+  grid-area: map; }
+
+.contactUbi {
+  grid-area: contact; }
+
+.imgsUbi {
+  grid-area: imgs; }
+
+@media screen and (min-width: 1300px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: end; } }
+
+.imgsUbi {
+  height: 450px; }
+
+@media screen and (max-width: 1000px) and (min-width: 720px) {
+  .brand {
+    flex-direction: column-reverse; }
+  .carousel-inner {
+    justify-content: space-around; } }
+
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+  .gridBodyUbi {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 150px auto 1.3fr 150px;
+    gap: 0px 0px;
+    grid-template-areas: "Header Header Header" "Section Section Section" "Section Section Section" "footer footer footer"; }
+  .gridContentUbi {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 450px  0.5fr 0.5fr 0.5fr;
+    gap: 0px 0px;
+    grid-template-areas: "map" "contact" "imgs"  "imgs"  "imgs"; }
+  .navListUbi {
+    text-align: end;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 0px;
+    margin-top: 10px; }
+  .imgsUbi {
+    flex-direction: column; }
+  .title {
+    text-align: center; } }
+
+@media screen and (max-width: 768px) {
+  .gridBodyUbi {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 2fr 2fr 0.5fr;
+    grid-template-areas: "Header" "Section " "Section " "footer "; }
+  .gridHeadUbi {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 0.5fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "icon"  "Title" "nav"; }
+  .gridContentUbi {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 450px  0.5fr 0.5fr 0.4fr;
+    gap: 0px 0px;
+    grid-template-areas: "map" "contact" "imgs"  "imgs" "imgs"; }
+  .title {
+    text-align: center; }
+  .navListUbi {
+    flex-direction: column; }
+  .imgsUbi {
+    flex-direction: column; }
+  .footerList {
+    flex-direction: column; } }
+
 .resaltado {
   color: black;
   font-size: 25px; }
@@ -155,6 +225,9 @@ footer {
 .title {
   display: flex;
   flex-direction: column; }
+
+.gridHeadUbi {
+  border-bottom: solid white 2px; }
 
 .UbiTitle {
   margin: 0px;
@@ -181,3 +254,43 @@ footer {
 
 .navListUbiLink--active {
   color: black; }
+
+.imgsUbi {
+  display: flex;
+  height: 350px; }
+
+.contactUbi {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.addressUbi {
+  color: white;
+  font-size: 35px;
+  padding: 20px; }
+
+.addressUbi--subtitle {
+  font-size: 30px; }
+
+.addressUbi--link {
+  text-decoration: none;
+  color: black;
+  transform: font-size 2s; }
+  .addressUbi--link:hover {
+    font-size: 40px; }
+
+.footerUbi {
+  border-top: solid white 2px; }
+
+.footerList {
+  display: flex;
+  list-style: none;
+  justify-content: space-around; }
+
+.footerListLinks {
+  text-decoration: none;
+  color: white; }
+
+.copyrightUbi {
+  text-align: center;
+  color: white; }
