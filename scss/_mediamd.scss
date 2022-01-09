@@ -2,7 +2,7 @@
 	.gridBodyUbi {
 	display: grid; 
   	grid-template-columns: 1fr 2fr 2fr; 
-  	grid-template-rows: 150px auto 1.3fr 150px; 
+  	grid-template-rows: 150px auto auto 150px; 
   	gap: 0px 0px; 
   	grid-template-areas: 
     "Header Header Header"
@@ -13,7 +13,7 @@
 	.gridContentUbi {
   		display: grid; 
   		grid-template-columns: 100%; 
-  		grid-template-rows: 450px  0.5fr 0.5fr 0.5fr; 
+  		grid-template-rows: 450px  0.3fr 0.3fr 0.3fr; 
   		gap: 0px 0px; 
   		grid-template-areas: 
     		"map"
@@ -31,8 +31,12 @@
 	}
 	.imgsUbi {
 		flex-direction: column;
+		height: 100%;
 	}
 	.title {
 		text-align:center
+	}
+	.mapUbi {
+		width: 100%;
 	}
 }
